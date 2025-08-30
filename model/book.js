@@ -10,7 +10,7 @@ const bookSchema = new mongoose.Schema({
     },
 
     date: {
-        type: String, 
+        type: Date, 
     }
    
 },{timestamps:true});
