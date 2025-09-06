@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.post('/', signUp)
 
-router.get('/', authorize(["admin"]), myusers)
+router.get('/', myusers)
 
 router.delete('/deluser/:id', authorize(["admin",]) ,delUser)
 
